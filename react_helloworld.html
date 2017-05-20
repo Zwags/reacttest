@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>First React Project</title>
+
+    <script src="https://unpkg.com/react@15/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script> <!-- Does our HTML work within browser -->
+
+    <style>
+      #container {
+        padding: 50px;
+        background-color: #EEE;
+      }
+      #container h1{
+        font-size: 48px;
+        font-family: sans-serif;;
+        color: #498AF5;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+
+    </div>
+    <!-- Testing react methods -->
+      <script type="text/babel">
+       ReactDOM.render (
+        <h1>zwags</h1>,
+        document.querySelector("#container")
+       );
+      </script>
+  </body>
+</html>
